@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inbox Sidebar</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="icon active"><i class="fas fa-th"></i></div>
+      <div class="icon"><i class="fas fa-camera"></i></div>
+      <div class="icon"><i class="fas fa-chevron-down"></i></div>
+      <div class="icon">
+        <i class="fas fa-comments"></i>
+        <span class="badge">12</span>
+      </div>
+      <div class="icon"><i class="fas fa-clipboard"></i></div>
+    </div>
+
+    <!-- Inbox -->
+    <div class="inbox">
+      <div class="header">
+        <h2>Inbox</h2>
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="conversations">
+        <ul>
+          <li><span><i class="fas fa-user"></i> You</span><span class="count">5</span></li>
+          <li><span><i class="fas fa-at"></i> Mentions</span><span class="count">2</span></li>
+          <li class="active"><span><i class="fas fa-users"></i> All</span><span class="count">234</span></li>
+          <li><span><i class="fas fa-circle"></i> Unassigned</span><span class="count">20</span></li>
+          <li><span><i class="fas fa-star"></i> Sales</span><span class="count">142</span></li>
+          <li><span><i class="fas fa-headset"></i> Support</span><span class="count">4</span></li>
+          <li><span><i class="fas fa-globe"></i> Global Sales</span><span class="count">23</span></li>
+        </ul>
+        <p>Show 20 hidden</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
